@@ -1,8 +1,9 @@
-module goAulas
+module github.com/edersonsilva/curso-golang
 
 go 1.15
 
 require (
-	github.com/go-sql-driver/mysql v1.6.0 // indirect
-	golang.org/x/tools v0.1.1 // indirect
+	github.com/edersonsilva/goarea v0.0.0-20210620162002-070357193c9c
+	github.com/fatih/color v1.12.0
+	rsc.io/quote v1.5.2 // indirect
 )
