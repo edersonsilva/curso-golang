@@ -12,6 +12,6 @@ func Media(numeros ...float64) float64 {
 		total += num
 	}
 	media := total / float64(len(numeros))
-	mediaArredondada, _ := strconv.ParseFloat(fmt.Sprintf("0.2f", media), 64)
+	mediaArredondada, _ := strconv.ParseFloat(fmt.Sprintf("%.2f", media), 64)
 	return mediaArredondada
 }
